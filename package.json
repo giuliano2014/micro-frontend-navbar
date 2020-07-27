@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --deploy-url https://test-micro-frontend-navbar.netlify.app/",
+    "build": "ng build --prod --deploy-url /dist/navbar --output-hashing none",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
