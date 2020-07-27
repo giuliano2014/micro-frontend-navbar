@@ -4,11 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --deploy-url /dist/navbar --output-hashing none",
+    "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build:single-spa": "ng build --prod --deploy-url https://test-micro-frontend-navbar.netlify.app/",
+    "build:single-spa": "ng build --prod --deploy-url http://localhost:1900/",
     "serve:single-spa": "ng serve --disable-host-check --port 1900 --deploy-url http://localhost:1900/ --live-reload false"
   },
   "private": true,
